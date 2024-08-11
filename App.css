@@ -1,1 +1,77 @@
+body {
+  background-color: #ADD8E6; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.input-field,
+.button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #FF0000; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.completed-text {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.task-item {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.mark-complete-button {
+  background-color: #FF0000;  
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+.toggle-visibility-button {
+  background-color: blueviolet; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.reset-tasks-button {
+  background-color: maroon; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
 
